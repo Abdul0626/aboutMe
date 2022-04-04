@@ -1,0 +1,52 @@
+h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 50px;
+    font-family: 'Lobster Two', cursive;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 25px;
+    font-family: 'Red Hat Mono', monospace;}
+p{
+    color: black;
+    font-size: 20px;
+    font-weight: 25px;
+    font-style: oblique;  
+}
+.smaller-image {
+    width: 400px;
+}
+
+
+body{
+    background-color: rgb(177, 181, 182);
+}
+@media (max-width: 400px) {
+    body{
+        
+        height: 100vh       
+    }
+    .smaller-image{
+        margin: auto;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    
+    li{
+        text-align: center;
+    }
+    
+    
+}
+    
